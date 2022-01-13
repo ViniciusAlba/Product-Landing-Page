@@ -25,6 +25,12 @@
 
     }
 
+    #nav-bar ul {
+
+        justify-content: space-around;
+
+    }
+
     #nav-bar li {
 
         margin: 0 10px;
@@ -71,7 +77,7 @@
 
     .qualities p {
 
-        width: 50vw;
+        width: 90%;
 
         margin-top: 20px;
 
@@ -127,14 +133,289 @@
 
 }
 
-@media (min-width: 576px) and (max-width: 767.98px) {
+@media (min-width: 576px) and (max-width: 991.98px) {
 
+    #header, #nav-bar, #main, .qualities, #register, #features, #how-it-works, #pricing, #footer {
+
+        width: 100vw;
+
+    }
+
+    #header, #pricing {
+
+        flex-direction: column;
+
+    }
+
+    #nav-bar, .logo {
+
+        height: 32px;
+
+    }
+
+    .logo img {
+
+        margin: 0 auto;
+
+    }
     
+    #header, #nav-bar ul {
+
+        padding: 0;
+
+    }
+
+    #nav-bar ul {
+
+        justify-content: space-around;
+
+    }
+
+    #nav-bar li {
+
+        margin: 0 10px;
+
+    }
+
+    #register h2 {
+
+        width: 95%;
+
+        text-align: center;
+
+        margin: 19.920px auto;
+
+    }
+
+    #email {
+
+        max-width: 210px;
+    
+        width: 100%;
+    
+    }
+    
+    #submit {
+    
+        max-width: 140px;
+    
+        width: 100%;
+    
+    }
+
+    .section-logos {
+
+        width: 35vw;
+
+    }
+
+    .descriptions {
+
+        width: 65vw;
+
+    }
+
+    .qualities p {
+
+        width: 90%;
+
+        margin-top: 20px;
+
+    }
+
+    #video {
+
+        max-width: 500px;
+
+        width: 100%;
+        height: 250px;
+
+        display: flex;
+        align-self: center;
+    
+        margin: 50px auto;
+    
+    }
+
+    #pricing {
+
+        width: 300px;
+        height: 1100px;
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    
+    }
+
+    .price-table {
+
+        width: 100%;
+    
+    }
+
+    #footer {
+
+        width: 80vw;
+
+        justify-content: end;
+    
+        padding: 20px;
+    
+    }
+
+    #footer ul {
+
+        padding: 0;
+    
+    }
 
 }
 
-@media (min-width: 768px) and (max-width: 991.98px) {
+@media (min-width: 992px) {
 
+    #header, #nav-bar, #main, .qualities, #register, #features, #how-it-works, #pricing, #footer {
 
+        width: 100vw;
+
+    }
+
+    #header, #pricing {
+
+        flex-direction: row;
+
+    }
+
+    .logo {
+
+        width: 40vw;
+
+    }
+
+    #nav-bar, .logo {
+
+        height: 32px;
+
+    }
+
+    .logo img {
+
+        margin: 0 auto;
+
+    }
+    
+    #header, #nav-bar ul {
+
+        padding: 0;
+
+    }
+
+    #nav-bar ul {
+
+        justify-content: space-around;
+
+    }
+
+    #nav-bar li {
+
+        margin: 0 10px;
+
+    }
+
+    #register h2 {
+
+        width: 95%;
+
+        text-align: center;
+
+        margin: 19.920px auto;
+
+    }
+
+    #email {
+
+        max-width: 250px;
+    
+        width: 100%;
+    
+    }
+    
+    #submit {
+    
+        max-width: 150px;
+    
+        width: 100%;
+    
+    }
+
+    .section-logos {
+
+        width: 35vw;
+
+    }
+
+    .descriptions {
+
+        width: 65vw;
+
+    }
+
+    .qualities p {
+
+        width: 90%;
+
+        margin-top: 20px;
+
+    }
+
+    #video {
+
+        max-width: 550px;
+
+        width: 100%;
+        height: 315px;
+
+        display: flex;
+        align-self: center;
+    
+        margin: 50px auto;
+    
+    }
+
+    #pricing {
+
+        width: 800px;
+        height: 800px;
+    
+        display: flex;
+        flex-flow: wrap;
+        justify-content: space-around;
+        align-items: center;
+    
+    }
+
+    .price-table {
+
+        width: 300px;
+    
+    }
+
+    #footer {
+
+        width: 80vw;
+
+        justify-content: end;
+        margin: 50 auto 0 auto;
+    
+        padding: 20px;
+    
+    }
+
+    #footer ul {
+
+        padding: 0;
+    
+    }
 
 }
