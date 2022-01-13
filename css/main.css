@@ -159,3 +159,134 @@ body {
     font-size: 16px;
 
 }
+
+#video {
+
+    width: 550px;
+    height: 315px;
+
+    margin: 50px 0 50px 0;
+
+}
+
+#pricing {
+
+    width: 960px;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.price-table {
+
+    text-align: center;
+
+    width: 300px;
+    height: 330px;
+
+    border: 1px solid black;
+
+}
+
+.price-table h2 {
+
+    margin-bottom: 10px;
+
+}
+
+.instruments-headline {
+
+    line-height: 3;
+
+    margin-top: 0;
+
+    background-color: #DDDDDD;
+
+}
+
+.instruments-description {
+
+    list-style: none;
+    text-align: center;
+
+    line-height: 2;
+
+    padding: 0;
+    margin: 0;
+    margin-bottom: 16px;
+
+}
+
+.select {
+
+    height: 40px;
+
+    text-transform: uppercase;
+    font-size: 16px;
+
+    background-color: #F1C40F;
+
+    border: 0;
+
+    padding: 0 20px;
+    margin: 10px 0;
+
+}
+
+.select:hover {
+
+    cursor: pointer;
+
+    background-color: darkorange;
+
+}
+
+#footer {
+
+    width: 920px;
+    height: 40px;
+
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    
+    margin: 50px auto 0 auto;
+    padding: 20px 20px;
+
+    background-color: #DDDDDD;
+
+}
+
+#footer ul {
+
+    margin-bottom: 5px;
+
+}
+
+#footer a {
+
+    text-decoration: none;
+    color: #000000;
+
+}
+
+#footer li {
+
+    display: inline;
+    list-style: none;
+
+    margin: 0 10px;
+
+}
+
+#copyright {
+
+    font-size: 14px;
+
+    text-align: right;
+
+    color: #444444;
+
+}
