@@ -44,20 +44,39 @@ body {
 
 }
 
-#nav-bar li {
+.nav-list {
 
-    display: inline;
-
+    display: flex;
     list-style: none;
+
+}
+
+.nav-list li {
 
     margin: 0 50px;
 
 }
 
-#nav-bar a {
+.nav-list a {
 
     text-decoration: none;
     color: #000000;
+
+}
+
+.mobile-menu {
+
+    display: none;
+    cursor: pointer;
+
+}
+
+.mobile-menu div {
+
+    width: 30px;
+    height: 3px;
+    background: darkorange;
+    margin: 5px;
 
 }
 
