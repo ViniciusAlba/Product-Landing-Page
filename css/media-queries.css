@@ -273,7 +273,7 @@
 
 }
 
-@media (min-width: 992px) {
+@media (max-width: 1024px) {
 
     #header, #nav-bar, #main, .qualities, #register, #features, #how-it-works, #pricing, #footer {
 
