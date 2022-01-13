@@ -1,93 +1,128 @@
 /*575.98px*/
 @media (max-width: 575.98px) {
 
-    html {
-
-        overflow-x: hidden;
-
-    }
-
-    #header {
-
-        min-height: 75px;
-        width: 100vw;
-    
-        position: fixed;
-        top: 0;
-    
-        padding: 0;
-    
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-    
-    }
-
-    
-    .logo {
-
-        width: 70vw;
-
-    }
-
-    .nav-list {
-
-        position: absolute;
-        top: 8vh;
-        left: 0;
-        right: 0;
+    #header, #nav-bar, #main, .qualities, #register, #features, #how-it-works, #pricing, #footer {
 
         width: 100vw;
-        height: 92vh;
 
-        margin: 0;
-        padding: 0;
+    }
 
-        background-color: #EEEEEE;
+    #header, #pricing {
 
         flex-direction: column;
-        align-items: center;
-        justify-content: space-around;
-
-        transform: translateX(100%);
-        transition: transform 0.3s ease-in;
 
     }
 
-    .nav-list.active {
+    #nav-bar, .logo {
 
-        transform: translateX(0);
+        height: 32px;
+
+    }
+    
+    #header, #nav-bar ul {
+
+        padding: 0;
 
     }
 
-    .nav-list li {
+    #nav-bar li {
 
-        opacity: 0;
+        margin: 0 10px;
 
     }
 
-    .mobile-menu {
+    #register h2 {
 
-        display: block;
+        width: 95%;
+
+        text-align: center;
+
+        margin: 19.920px auto;
+
+    }
+
+    #email {
+
+        max-width: 210px;
+    
+        width: 100%;
+    
+    }
+    
+    #submit {
+    
+        max-width: 140px;
+    
+        width: 100%;
     
     }
 
-    #main {
+    .section-logos {
 
-        width: 100vw;
+        width: 35vw;
 
     }
 
-    .qualities, .descriptions p, #video, #footer {
+    .descriptions {
 
-        width: 100vw;
+        width: 65vw;
 
+    }
+
+    .qualities p {
+
+        width: 50vw;
+
+        margin-top: 20px;
+
+    }
+
+    #video {
+
+        max-width: 250px;
+
+        width: 100%;
+        height: 250px;
+
+        display: flex;
+        align-self: center;
+    
+        margin: 50px auto;
+    
     }
 
     #pricing {
 
+        width: 90vw;
+        height: 1100px;
+    
+        display: flex;
         flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    
+    }
 
+    .price-table {
+
+        width: 100%;
+    
+    }
+
+    #footer {
+
+        width: 100vw;
+
+        justify-content: center;
+    
+        padding: 20px 0;
+    
+    }
+
+    #footer ul {
+
+        padding: 0;
+    
     }
 
 }

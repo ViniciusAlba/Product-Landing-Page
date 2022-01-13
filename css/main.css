@@ -44,39 +44,24 @@ body {
 
 }
 
-.nav-list {
+#nav-bar ul {
 
     display: flex;
+
     list-style: none;
 
 }
 
-.nav-list li {
+#nav-bar li {
 
     margin: 0 50px;
 
 }
 
-.nav-list a {
+#nav-bar a {
 
     text-decoration: none;
     color: #000000;
-
-}
-
-.mobile-menu {
-
-    display: none;
-    cursor: pointer;
-
-}
-
-.mobile-menu div {
-
-    width: 30px;
-    height: 3px;
-    background: darkorange;
-    margin: 5px;
 
 }
 
